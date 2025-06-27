@@ -4,7 +4,7 @@ region = "ap-south-1"
 
 resource "aws_instance" "one" {
 count = 4
-ami = "ami-0b09627181c8d5778"
+ami = "ami-0d03cb826412c6b0f"
 instance_type = "t2.medium"
 key_name = "apsouthkeypair"
 vpc_security_group_ids = ["sg-0412b221034de5e45"]
